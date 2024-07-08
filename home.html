@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>home</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14583,24 +14583,24 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <table style="width:100%">
     <tr>
         <td>
-            <a href="https://www.sheffield.ac.uk/" 
-               title="Redirect to University of Sheffield homepage">
-            <img src="UOSLogo_Primary_Violet_RGB.png" width="110" 
-                 alt="University of Sheffield" align="left">
+            <a href="https://www.sheffield.ac.uk/mash" 
+               title="Redirect to Maths and Statistics Help (MASH) homepage">
+            <img src="MASH.png"  width = 267
+                 alt="Maths and Statistics Help (MASH)" align="left">
         </td>
         <td>
             <center>
-            <a href="https://www.sheffield.ac.uk/academic-skills" 
+                <a href="https://www.sheffield.ac.uk/academic-skills" 
                title="Redirect to 301 Academic Skills Centre homepage">
-            <img src="301.png" width="60" 
+            <img src="301.png"  width = 267
                  alt="301 Academic Skills Centre">
             </center>
         </td>
         <td>
-            <a href="https://www.sheffield.ac.uk/mash" 
-               title="Redirect to Maths and Statistics Help (MASH) homepage">
-            <img src="MASH.png" width="100" 
-                 alt="Maths and Statistics Help (MASH)" align="right">
+            <a href="https://www.sheffield.ac.uk/" 
+               title="Redirect to University of Sheffield homepage">
+            <img src="UOSLogo_Primary_Violet_RGB.png" width = 165
+                 alt="University of Sheffield" align = "right">
         </td>
     </tr>
 </table>
@@ -14646,6 +14646,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </li>
 <li><p><a href="./markdown.html" title="Go to Markdown introduction">Getting started with Markdown</a></p>
 </li>
+<li><p><a href="./html.html" title="Go to Using HTML for more complex formatting">Using HTML for more complex formatting</a></p>
+</li>
 <li><p><a href="./typesetting_mathematics.html" title="Go to typesetting mathematics">Typesetting mathematics using Markdown</a></p>
 </li>
 <li><p><a href="./images.html" title="Go to images">Images</a></p>
@@ -14666,7 +14668,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>The first page will talk you through installing Jupyter Notebook on your machine (if it's not already). We will then create a new Notebook to use in this session as you work through each page, and cover how to create HTML outputs. The rest of the pages will cover how to create use normal text, Markdown and HTML to create mathematical resources.</p>
 <p>On each page, where there is example Markdown or HTML code, add this to your Notebook, and play around with the outputs to get a feel for what you can create in Jupyter Notebook. There will also be tasks for you to practice these skills.</p>
-<p>This training will cover the basics of what you will need to create a stand-alone resource, similar to how PDF resources are currently presented on the MASH website. In the <code>MASH_Jupyter_Notebook_training</code> folder, you will find a folder called <code>MASH_ipynb_template_for_html_resources</code>, which contains the first iteration of a template for our resources. Once you've finished this training, open that Notebook and have a play around with it. It contains guidance and some Markdown reminders so that you should be able to get started without having to refer to this training.</p>
+<p>This training will cover the basics of what you will need to create a stand-alone resource, similar to how PDF resources are currently presented on the MASH website. In the <code>MASH_Jupyter_Notebook_training</code> folder you have been sent, you will find a folder called <code>MASH_ipynb_template_for_html_resources</code>, which contains the first iteration of a template for our resources. Once you've finished this training, open that Notebook and have a play around with it. It contains guidance and some Markdown reminders so that you should be able to get started without having to refer to this training.</p>
+<p>We are currently working on using an additional package, <a href="https://jupyterbook.org/en/stable/intro.html" title="Go to Jupyter Book website">Jupyter Book</a> to create websites with multiple pages and access more advanced formatting tools for presenting information. Whilst creating website's is possible by just using Jupyter Notebook (this training is an example), it is time-consuming and creates a more basic output than Jupyter Book. For an example, see <a href="https://abestshef.github.io/jupyter/Intro.html" title="Go to Alex Best&#39;s github page for an introduction to using Jupyter Book to write accessible mathematics">Alex Best's Jupyter Book introduction to write accessible mathematics</a>. More information to follow.</p>
 
 </div>
 </div>
@@ -14678,72 +14681,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Converting-existing-resources">Converting existing resources<a class="anchor-link" href="#Converting-existing-resources">&#182;</a></h2><hr>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>As well as providing a template for new resources that we create, a priority for this project is making our existing resources more accessible, as many of the current MASH written resources are untagged PDFs. To do this, we are using <a href="https://snip.mathpix.com/" title="Go to Mathpix  Snip web app">Mathpix</a>, which allows us to upload the existing PDFs and generate a Markdown output. This AI tool generally works well, especially when reading equations, although every conversion will need checking against the original as it isn't perfect. There is more information on how to use Mathpix in the <a href="https://drive.google.com/drive/folders/1K9Q6B9jnzqYT-IC4dFmHcrhrNxqoNitB?usp=drive_link" title="Go to the Accessibility folder on the MASH tutor Google Drive">Accessibility folder on the Google Drive</a>.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Enriching-resources">Enriching resources<a class="anchor-link" href="#Enriching-resources">&#182;</a></h2><hr>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Whilst this guidance gives an overview of the basics we can do with Markdown and HTML, there is a lot more that we can do with both languages to improve our resources. If you do want to try something new, I would recommend always checking the HTML output as well as what you see in Jupyter Notebook, as sometimes the output appears differently or it will only work in one of the outputs.</p>
-<p>Creating html outputs opens up the possibility of embedding richer or more interactive content into our resources. For example, it is possible to embed YouTube videos or Numbas questions into the template. This isn't as much of a priority as improving the accessibility of our resources is, but if you are interested in trying this, talk to one of the ASAs about it.</p>
-<p>We are currently working on using an additional package, <a href="https://jupyterbook.org/en/stable/intro.html" title="Go to Jupyter Book website">Jupyter Book</a> to create websites with multiple pages and access more advanced formatting tools for presenting information. Whilst creating websites is possible by just using Jupyter Notebook (this training is an example), it is time-consuming and creates a more basic output than Jupyter Book. For an example, see <a href="https://abestshef.github.io/jupyter/Intro.html" title="Go to Alex Best&#39;s github page for an introduction to using Jupyter Book to write accessible mathematics">Alex Best's Jupyter Book introduction to write accessible mathematics</a>. More information to follow.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="References-and-useful-links">References and useful links<a class="anchor-link" href="#References-and-useful-links">&#182;</a></h2><hr>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
-<li><a href="https://staff.sheffield.ac.uk/digital-accessibility/about" title="Go to University of Sheffield information page on digital accessibility and the University&#39;s legal requirements">University of Sheffield: What is digital accessibility and what are our legal requirements?</a></li>
-<li><a href="https://staff.sheffield.ac.uk/digital-accessibility/maths" title="Go to University of Sheffield information page on digital accessibility in mathematics and statistics">University of Sheffield: Mathematics and statistics</a></li>
-<li><a href="https://staff.sheffield.ac.uk/digital-accessibility" title="Go to University of Sheffield home page for digital accessibility in learning and teaching">University of Sheffield: Digital accessibility in learning and teaching</a></li>
+<h2 id="References-and-useful-links">References and useful links<a class="anchor-link" href="#References-and-useful-links">&#182;</a></h2><ul>
 <li><a href="https://abestshef.github.io/jupyter/Intro.html" title="Go to Alex Best&#39;s github page for an introduction to using Jupyter Book to write accessible mathematics">Alex Best's Jupyter Book introduction to write accessible mathematics</a>.</li>
 <li><a href="http://talmo.uk/2023/accessiblemaths.html" title="Go to TALMO accessible maths workshop page">TALMO workshop on creating accessible online mathematics and statistics notes</a> which contains recordings and useful resources.</li>
 <li><a href="https://www.makethingsaccessible.com/tags/stemm/" title="Go to Make Things Accessible&#39;s STEMM guides">Make Things Accessible's STEMM guides</a>, who are trying to create resources outlining a code practice when creating online STEMM resources.</li>
@@ -14752,7 +14690,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <li><a href="http://tug.ctan.org/info/undergradmath/undergradmath.pdf" title="Go to LaTeX Math cheat sheet">$\LaTeX$ Math for Undergrads cheat sheet</a></li>
 <li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" title="Go to LaTeX wikibooks mathematics page">$\LaTeX$ wikibooks mathematics page</a></li>
 <li><a href="https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics" title="Go to LaTeX wikibooks advanced mathematics page">$\LaTeX$ wikibooks advanced mathematics page</a>.</li>
-<li><a href="https://students.sheffield.ac.uk/digital-learning/equatio#access#access" title="Go to University of Sheffield information page for Equatio">University of Sheffield: Equatio</a></li>
+<li><a href="https://students.sheffield.ac.uk/digital-learning/equatio#access#access" title="Go to University of Sheffield information page for Equatio">Equatio</a></li>
 </ul>
 
 </div>
@@ -14781,24 +14719,24 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <table style="width:100%">
     <tr>
         <td>
-            <a href="https://www.sheffield.ac.uk/" 
-               title="Redirect to University of Sheffield homepage">
-            <img src="UOSLogo_Primary_Violet_RGB.png" width="110" 
-                 alt="University of Sheffield" align="left">
+            <a href="https://www.sheffield.ac.uk/mash" 
+               title="Redirect to Maths and Statistics Help (MASH) homepage">
+            <img src="MASH.png"  width = 267
+                 alt="Maths and Statistics Help (MASH)" align="left">
         </td>
         <td>
             <center>
-            <a href="https://www.sheffield.ac.uk/academic-skills" 
+                <a href="https://www.sheffield.ac.uk/academic-skills" 
                title="Redirect to 301 Academic Skills Centre homepage">
-            <img src="301.png" width="60" 
+            <img src="301.png"  width = 267
                  alt="301 Academic Skills Centre">
             </center>
         </td>
         <td>
-            <a href="https://www.sheffield.ac.uk/mash" 
-               title="Redirect to Maths and Statistics Help (MASH) homepage">
-            <img src="MASH.png" width="100" 
-                 alt="Maths and Statistics Help (MASH)" align="right">
+            <a href="https://www.sheffield.ac.uk/" 
+               title="Redirect to University of Sheffield homepage">
+            <img src="UOSLogo_Primary_Violet_RGB.png" width = 165
+                 alt="University of Sheffield" align = "right">
         </td>
     </tr>
 </table>
